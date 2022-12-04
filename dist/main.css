@@ -1,0 +1,62 @@
+.codesection{
+    visibility: hidden;
+  }
+  .coderow {
+    white-space: nowrap;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  }
+
+  .coderow .i-pre {
+    color: #6e7681
+  }
+
+  .coderow .i-div {
+    color: #7eee78;
+  }
+
+  .coderow .i-class-style {
+    color: #d2a8ff
+  }
+
+  .coderow .i-content {
+    color: #a5d6ff
+  }
+
+  .url {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+  .tab-options {
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+  .body-right {
+    background-color: rgb(5, 13, 34) !important;
+  }
+
+  .terminal-result {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:#58a6ff
+  }
+  .terminal-result .r-time{
+    color:#6e7681
+  }
+  .terminal-result .r-console{
+    color:#8b949e
+  }
+  .arrow {
+    transform: translateY(-50%);
+  }
+  .tab-option-actived{
+    background-color: black;
+  }
+  #skill-content{
+    display: none;
+  }
+  .duties{
+    font-family: Arial, Helvetica, sans-serif;
+  }

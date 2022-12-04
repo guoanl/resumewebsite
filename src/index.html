@@ -1,0 +1,431 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../dist/tailwind.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="../dist/main.css">
+  <script src="../dist/javascript/jquery-3.6.1.min.js"></script>
+  <script src="../dist/javascript/main.js"></script>
+</head>
+<body class="bg-no-repeat bg-cover" style="background-image:url(./img/wp4.jpg)">
+  <div class="header w-full bg-center bg-no-repeat bg-cover" style="background-image:url()">
+    <div class="nav-prologue mx-auto w-full max-w-7xl lg:w-5/6">
+      <nav class="w-full h-44 flex justify-between items-center px-4 mx-auto">
+        <h2 class="font-bold text-2xl hover:text-blue-700 transition duration-500"><a href="javascript:;">James - Liu
+            Web Developer</a></h2>
+        <div class="menu lg:hidden w-24 h-12 bg-blue-500 flex justify-center items-center rounded-lg cursor-pointer">
+          <h6>Menu</h6>
+          <span class="bi bi-list"></span>
+        </div>
+        <ul class=" w-2/3 justify-around hidden lg:flex italic text-lg">
+          <li class="hover:text-blue-700 transition duration-500"><a href="javascript:;">Skills and Tech</a></li>
+          <li class="hover:text-blue-700 transition duration-500"><a href="javascript:;">Work Experience</a></li>
+          <li class="hover:text-blue-700 transition duration-500"><a href="javascript:;">About</a></li>
+          <li class="hover:text-blue-700 transition duration-500"><a href="javascript:;">Contact</a></li>
+          <li class="hover:text-blue-700 transition duration-500"><a href="javascript:;">Resume</a></li>
+        </ul>
+      </nav>
+      <div class="prologue w-full flex flex-col items-center justify-center p-8 mx-auto">
+        <h2
+          class="w-full text-7xl flex justify-center items-center font-extrabold my-6 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+          Welcome&nbsp;<span class="bi bi-chat-left"></span></h2>
+        <p
+          class="w-full text-center font-bold text-3xl mb-6 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+          Thank you for taking the time to visit my resume site.</p>
+        <div
+          class="prolo-word w-full bg-gradient-to-r from-blue-300 to-green-300 text-2xl font-serif p-8 leading-loose lg:w-2/3 rounded-lg shadow-md">
+          <p class="text-justify">
+            My name is James and I am a web developer from China. I have put together this site to briefly
+            highlight my professional career and skills. I have made this site as informative as possible but I also
+            wanted to keep things concise. If you need more information, just send me an email and ask.
+            <br />
+            Thanks!
+          </p>
+          <br />
+          <img src="img/sig.png" alt="" class="w-24 h-12">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container w-full h-auto mx-auto lg:w-5/6">
+    <div class="flex justify-center items-center mt-6"><svg class="animate-bounce" xmlns="http://www.w3.org/2000/svg"
+        width="80" height="80" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+      </svg></div>
+    <div class="codesection w-full mx-auto bg-gray-800 rounded-lg max-w-full min-w-0 shadow-lg animate__animated animate__fadeInUp">
+      <div class="header h-20 w-full flex justify-between items-center text-white px-4 border-b-2 border-gray-600">
+        <span class="bi bi-code hidden md:w-20 md:h-20 md:flex md:justify-center md:items-center text-3xl"></span>
+        <div class="flex w-full h-1/3 lg:w-1/2 justify-between items-center rounded-lg bg-black text-white p-4">
+          <span class="bi bi-lock"></span>
+          <span class="url">http://mona-github-github-g59jpq.github.dev</span>
+          <span class="bi bi-arrow-clockwise"></span>
+        </div>
+        <span class="bi bi-plus hidden md:w-20 md:h-20 md:flex md:justify-center md:items-center text-3xl"></span>
+      </div>
+      <div class="body h-auto w-full flex">
+        <div class="body-left hidden h-full lg:w-20 lg:flex justify-center items-center text-3xl text-white py-2">
+          <span class="bi bi-list"></span>
+        </div>
+        <div class="body-middle flex flex-col w-full h-full lg:w-1/2 border-l-2 border-r-2 border-gray-600 text-white">
+          <div class="tab-bar h-20 w-full flex items-end px-4 font-Mona">
+            <div
+              class="tab-options tab-option-actived w-auto h-4/6 mx-1 py-2 px-4  rounded-t-lg flex justify-center items-end flex-shrink-0 cursor-pointer"
+              id="about-tab">AboutMe.html</div>
+            <div
+              class="tab-options w-auto h-4/6 mx-1 py-2 px-4  rounded-t-lg flex justify-center items-end flex-shrink-0 cursor-pointer"
+              id="skill-tab">Skills.js</div>
+          </div>
+          <div class="body-middle-code w-full h-auto p-8 bg-black" id="about-content">
+            <div class="overflow-x-scroll">
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>&lt;<span class="i-div">div</span> <span class="i-class-style">class</span>=&quot;<span
+                    class="i-content">I was born and raised in coastal Georgia just outside of Savannah</span>&quot; <span
+                    class="i-class-style">style</span>=&quot;<span class="i-content">bottom:
+                    -4rem;</span>&quot;&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">2</span>
+                <span>&nbsp;&nbsp;&lt;<span class="i-div">div</span> <span
+                    class="i-class-style">class</span>=&quot;<span class="i-content">From a young age I was interested in fixing and tinkering with things</span>&quot;&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">3</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="i-div">div</span> <span
+                    class="i-class-style">class</span>=&quot;<span class="i-content">Although I didn't appreciate it at the time, we never had cable TV in the house</span>&quot;&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">4</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="i-div">div</span> <span
+                    class="i-class-style">class</span>=&quot;<span class="i-content">This lead to spending more time tinkering with the family computer, an IBM PC clone, complete with dual 5.25" floppy drives and green monochrome adapter</span>&quot;&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">5</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="i-div">Picture</span>&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">6</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="i-div">source</span>
+                  <span class="i-class-style">srcset</span>=&quot;<span class="i-content">astro-mona.webp</span>&quot;
+                  <span class="i-class-style">type</span>=&quot;<span
+                    class="i-content">image/webp</span>&quot;&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">7</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="i-div">img</span>
+                  <span class="i-class-style">src</span>=&quot;<span class="i-content">astro-mona.svg</span>&quot; <span
+                    class="i-class-style">width</span>=&quot;<span class="i-content">960</span>&quot; <span
+                    class="i-class-style">height</span>=&quot;<span class="i-content">967</span>&quot;
+                  <span class="i-class-style">class</span>=&quot;<span class="i-content">home-astro-mona width-full
+                    position-absolute bottom-0 height-auto</span>&quot; <span
+                    class="i-class-style">alt</span>=&quot;<span class="i-content">Mona
+                    looking at GitHub activity across the globe</span>&quot;&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">8</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span class="i-div">picture</span>&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">9</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span class="i-div">div</span>&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">10</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span class="i-div">div</span>&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">11</span>
+                <span>&nbsp;&nbsp;&lt;/<span class="i-div">div</span>&gt;</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">12</span>
+                <span>&lt;/<span class="i-div">div</span>&gt;</span>
+              </div>
+            </div>
+          </div>
+          <div class="body-middle-code  w-full h-auto p-8 bg-black" id="skill-content">
+            <div class="overflow-x-scroll">
+              <div class="coderow">
+                <span class="i-pre">1</span>      
+                <span>Proficient in CSS<span class="bi bi-filetype-css"></span> </span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+              <div class="coderow">
+                <span class="i-pre">1</span>
+                <span>1</span>
+              </div>
+            </div>
+          </div>
+          <div class="body-middle-terminal w-full p-8">
+            <ul class="flex h-10 w-full my-2 font-bold justify-between">
+              <li style="color:white">Terminal</li>
+              <li style="color:#6e7681">Output</li>
+              <li style="color:#6e7681">Problems</li>
+              <li style="color:#6e7681">Debug console</li>
+            </ul>
+            <div class="terminal-result whitespace-nowrap">
+              <div class=""><span class="r-time">[09:43:36]</span> <span class="r-console">Starting</span> 'class="r-content">'watch-extension:vscode-api-tests' ...</span></div>
+              <div class=""><span class="r-time">[09:43:36]</span> <span class="r-console">Finished</span> 'clean-extension:typescript-language-features' after 248</span></div>
+              <div class=""><span class="r-time">[09:43:36]</span> <span class="r-console">Starting</span> 'watch-extension:typescript-language-features' ...</span></div>
+              <div class=""><span class="r-time">[09:43:36]</span> <span class="r-console">Finished</span> 'clean-extension:php-language-features' after 384 ms</span></div>
+              <div class=""><span class="r-time">[09:43:36]</span> <span class="r-console">Starting</span> 'watch-extension:php-language-features' ...</span></div>
+              <div class=""><span class="r-time">[09:43:36]</span> <span class="r-console">Finished</span> 'clean-extension:html-language-features-server' after 4.66</span></div>
+              <div class=""><span class="r-time">[09:43:36]</span> <span class="r-console">Starting</span> 'watch-extension:html-language-features-server' ...</span></div>
+              <div class=""><span class="r-time">[09:43:36]</span> <span class="r-console">Starting</span> 'clean-client' after 7.33 s</span></div>
+              <div class=""><span class="r-time">[09:43:36]</span> <span class="r-console">Starting</span> 'watch-client' ...</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="body-right hidden lg:flex flex-col w-0 h-auto lg:w-1/2 text-3xl text-white rounded-br-lg">
+          <div class="body-right-git w-full h-20 flex justify-between px-4 border-b-2 border-gray-600">
+            <span class="bi bi-list flex justify-center items-center"></span>
+            <span class="bi bi-github flex justify-center items-center"></span>
+            <span class="bi bi-bell flex justify-center items-center"></span>
+          </div>
+          <div class="body-right-img w-full flex items-center justify-center" style="height:calc(100% - 80px)">
+            <div class="bg-center bg-no-repeat bg-contain"
+              style="height:640px;width:100%;background-image: url(./img/james.jpg);">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center items-center mt-6"><svg class="animate-bounce" xmlns="http://www.w3.org/2000/svg"
+        width="80" height="80" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+      </svg></div>
+      <div class="qualifications w-full h-auto">
+        <h2
+          class="text-center text-7xl font-extrabold my-6 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+          Qualifications</h2>
+        <h4
+          class="text-center font-bold text-3xl mb-6 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+          A list of My Study Journey.</h4>
+        <!-- 学历证明开始 -->
+        <div class="work-list-left my-4">
+          <div class="work-list flex relative w-full">
+            <div class="w-24 h-full lg:absolute lg:left-1/2 lg:-translate-x-1/2">
+              <img src="img/utas.png" alt="" class="w-24 h-24 hidden lg:block">
+              <div class="w-1/2 border-r-2 lg: border-gray-400" style="height: calc(100% - 96px)"></div>
+            </div>
+            <div class="work-word flex flex-col lg:w-1/2 lg:pr-12">
+              <h1 class="font-extrabold text-xl my-2">University of Tasmania</h1>
+              <h2 class="font-bold text-base my-2">Information Technology and Systems - Master Degree</h2>
+              <div class="word-icons font-bold my-4">
+                <div>
+                  <p><i class="bi bi-globe-central-south-asia mr-2"></i>Hobart, AU</p>
+                </div>
+                <div>
+                  <p><i class="bi bi-calendar mr-2"></i>Feb 2019 - Dec 2020</p>
+                </div>
+              </div>
+              <ul class="duties flex flex-col divide-y divide-black text-justify">
+                <li><i class="bi bi-arrow-right-square-fill"></i> Web Development, ICT Professional Practices and Project Management, Knowledge
+                  and Information Management</li>
+                <li><i class="bi bi-arrow-right-square-fill"></i> ICT Systems Strategy and Management, Data Management
+                  Technology, Artificial Intelligence and Natural Language</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 学历证明分割线 -->
+        <div class="work-list-right my-4">
+          <div class="work-list flex relative w-full lg:justify-end">
+            <div class="w-24 h-full lg:absolute lg:left-1/2 lg:-translate-x-1/2">
+              <img src="img/shou.png" alt="" class="w-24 h-24 hidden lg:block">
+              <div class="w-1/2 border-r-2 lg: border-gray-400" style="height: calc(100% - 96px)"></div>
+            </div>
+            <div class="work-word flex flex-col lg:w-1/2 lg:justify-end lg:pl-12">
+              <h1 class="font-extrabold text-xl my-2 lg:text-end">Shanghai Ocean University</h1>
+              <h2 class="font-bold text-base my-2 lg:text-end">Business Information Management - Bachelor Degree</h2>
+              <div class="word-icons font-bold my-4">
+                <div>
+                  <p class="lg:text-end"><i class="bi bi-globe-central-south-asia mr-2"></i>Shanghai, CH</p>
+                </div>
+                <div>
+                  <p class="lg:text-end"><i class="bi bi-calendar mr-2"></i>Sep 2015 - Jun 2019</p>
+                </div>
+              </div>
+              <ul class="duties flex flex-col divide-y divide-black text-justify">
+                <li><i class="bi bi-arrow-right-square-fill"></i> Business Information Systems, Dynamic Web Development, Systems Acquisition
+                  and Implementation Management, Data Management, ICT Project Management</li>
+                <li><i class="bi bi-arrow-right-square-fill"></i> Advanced Mathematics, Statistics, Business information system, Outlook and
+                  Moral Character Cultivation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 学历证明结束 -->
+      </div>
+      <div class="flex justify-center items-center mt-6"><svg class="animate-bounce" xmlns="http://www.w3.org/2000/svg"
+        width="80" height="80" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+      </svg></div>
+      <div class="workexp w-full h-auto">
+      <h2
+        class="text-center text-7xl font-extrabold my-6 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+        WORK EXPERIENCE</h2>
+      <h4
+        class="text-center font-bold text-3xl mb-6 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+        A list of companies that I have worked for and my duties there.</h4>
+      <!-- 工作证明开始 -->
+      <div class="work-list-left my-4">
+        <div class="work-list flex relative w-full">
+          <div class="w-24 h-full lg:absolute lg:left-1/2 lg:-translate-x-1/2">
+            <img src="img/logo.png" alt="" class="w-24 h-24 hidden lg:block">
+            <div class="w-1/2 border-r-2 lg: border-gray-400" style="height: calc(100% - 96px)"></div>
+          </div>
+          <div class="work-word flex flex-col lg:w-1/2 lg:pr-12">
+            <h1 class="font-extrabold text-xl my-2">Chongqing University</h1>
+            <h2 class="font-bold text-base my-2">System Administrator</h2>
+            <div class="word-icons font-bold my-4">
+              <div>
+                <p><i class="bi bi-globe-central-south-asia mr-2"></i>Chongqing, CH</p>
+              </div>
+              <div>
+                <p><i class="bi bi-calendar mr-2"></i>Jun 2021 - Present</p>
+              </div>
+            </div>
+            <ul class="duties flex flex-col divide-y divide-black text-justify">
+              <li><i class="bi bi-arrow-right-square-fill"></i> Develop scalable backend services for production apps running in
+                many different mobile, web, and proprietary platforms using a multitude of AWS services.</li>
+              <li><i class="bi bi-arrow-right-square-fill"></i> Ensuring the availability of various video resources.Contribute
+                on Angular based web applications for internal teams to create and manage the streaming content used by
+                several different content platforms.</li>
+              <li><i class="bi bi-arrow-right-square-fill"></i> Utilize the agile process to ensure efficient operations of teams
+                across different companies and interests to launch new projects for our streaming partners.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 工作证明分割线 -->
+      <!-- <div class="work-list-right my-4">
+        <div class="work-list flex relative w-full lg:justify-end">
+          <div class="w-24 h-full lg:absolute lg:left-1/2 lg:-translate-x-1/2">
+            <img src="img/logo.png" alt="" class="w-24 h-24 hidden lg:block">
+            <div class="w-1/2 border-r-2 lg: border-gray-400" style="height: calc(100% - 96px)"></div>
+          </div>
+          <div class="work-word flex flex-col lg:w-1/2 lg:justify-end lg:pl-12">
+            <h1 class="font-extrabold text-xl my-2 lg:text-end">The Weather Channel</h1>
+            <h2 class="font-bold text-base my-2 lg:text-end">Senior Software Engineer</h2>
+            <div class="word-icons font-bold my-4">
+              <div>
+                <p class="lg:text-end"><i class="bi bi-globe-central-south-asia mr-2"></i>Atlanta, GA</p>
+              </div>
+              <div>
+                <p class="lg:text-end"><i class="bi bi-calendar mr-2"></i>Nov 2019 - Present</p>
+              </div>
+            </div>
+            <ul class="duties flex flex-col divide-y divide-black text-justify">
+              <li><i class="bi bi-arrow-right-square-fill"></i> Develop scalable backend services for production apps running in
+                many different mobile, web, and proprietary platforms using a multitude of AWS services.</li>
+              <li><i class="bi bi-arrow-right-square-fill"></i> Ensuring the availability of various video resources.Contribute
+                on Angular based web applications for internal teams to create and manage the streaming content used by
+                several different content platforms.</li>
+              <li><i class="bi bi-arrow-right-square-fill"></i> Utilize the agile process to ensure efficient operations of teams
+                across different companies and interests to launch new projects for our streaming partners.</li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
+      <!-- 工作证明结束 -->
+    </div>
+  </div>
+  <div class="flex justify-center items-center mt-6"><svg class="animate-bounce" xmlns="http://www.w3.org/2000/svg"
+      width="80" height="80" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+    </svg></div>
+  <div class="footer w-full bg-gray-50 py-6">
+    <div class="container w-5/6 mx-auto max-w-7xl">
+      <h1
+        class="text-center text-7xl font-extrabold my-6 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+        Contact</h1>
+      <h3
+        class="text-center font-bold text-3xl mb-6 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+        <i class="bi bi-envelope w-16 h-16"></i> tom@tomhutson.com or use the form below to reach out.</h3>
+      <form action="" class="w-full">
+        <div class="overflow-hidden shadow sm:rounded-md">
+          <div class="bg-gray-100 px-4 py-5 sm:p-6">
+            <div class="grid grid-cols-6 gap-6 font-semibold text-lg">
+              <div class="col-span-6 lg:col-span-3 h-12 m-4">
+                <label for="name" class="block text-gray-700">Name</label>
+                <input type="text" name="name" id="name" autocomplete="name"
+                  class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-full p-4">
+              </div>
+              <div class="col-span-6 lg:col-span-3 h-12 m-4">
+                <label for="email" class="block text-gray-700">Email</label>
+                <input type="email" name="email" id="email" autocomplete="email"
+                  class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-full p-4">
+              </div>
+              <div class="col-span-6 h-36 m-4">
+              <label for="message" class="block text-gray-700">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm h-full p-4 resize-none overflow-y-auto"></textarea>
+            </div>
+            </div>
+          </div>
+          <div class="bg-gray-100 px-4 py-3 text-right sm:px-6 my-auto flex justify-center">
+            <button type="submit"
+              class="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-lg text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Send Message</button>
+          </div>
+        </div>
+  </form>
+  </div>
+  </div>
+
+  <div class="copyright bg-white w-full h-32">
+    <div class="copyright-content w-5/6 h-full max-w-7xl flex justify-between items-center mx-auto">
+      <p class="flex-1 text-left">Copyright © TomHutson.com 2022</p>
+      <span class="bi bi-linkedin text-4xl"></span>
+      <p class="flex-1 text-right">Terms of Use</p>
+    </div>
+  </div>
+</body>
+
+</html>
